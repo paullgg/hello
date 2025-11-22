@@ -7,8 +7,17 @@
  */
 public class h
 {
+    int age=90;//instance variable 
+    static int qty;//static variable
     public static void main(String[] args){
         
-    System.out.println("hello boss");
+        int agr=10;//local variable
+        System.out.println(agr);
+        
+        //<className> <variable>=new <className>();
+        h w1= new h();
+          System.out.println(w1.age);
+          
+    
     }
 }
